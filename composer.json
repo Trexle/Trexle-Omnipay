@@ -14,12 +14,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Adrian Macneil",
-            "email": "adrian@adrianmacneil.com"
-        },
-        {
-            "name": "Omnipay Contributors",
-            "homepage": "https://github.com/thephpleague/omnipay-trexle/contributors"
+            "name": "Hossam Hossny",
+            "email": "hossamhossnyar@gmail.com"
         }
     ],
     "autoload": {
