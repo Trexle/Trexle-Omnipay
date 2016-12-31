@@ -2,16 +2,11 @@
 
 **Trexle Payments driver for the Omnipay PHP payment processing library**
 
-[![Build Status](https://travis-ci.org/thephpleague/omnipay-trexle.png?branch=master)](https://travis-ci.org/thephpleague/omnipay-trexle)
-[![Latest Stable Version](https://poser.pugx.org/omnipay/trexle/version.png)](https://packagist.org/packages/omnipay/trexle)
-[![Total Downloads](https://poser.pugx.org/omnipay/trexle/d/total.png)](https://packagist.org/packages/omnipay/trexle)
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements [Trexle](https://trexle.net.au/) support for Omnipay.
 
-[Trexle Payments](https://trexle.net.au/) is an Australian all-in-one payment system, allowing you
-to accept multi-currency credit card payments without a security
-deposit or a merchant account.
+[Trexle Payments](https://trexle.com) is an online billing solution supporting 100+ payments gateways and dozens of e-commerce platforms.
  
 ## Installation
 
