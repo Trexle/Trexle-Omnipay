@@ -12,24 +12,13 @@ use Guzzle\Http\Message\RequestInterface;
  *
  * This is the parent class for all Trexle REST requests.
  *
- * Test modes:
+ * ### Test modes
  *
- * The API has two endpoint host names:
- *
- * * api.trexle.net.au (live)
- * * test-api.trexle.net.au (test)
- *
- * The live host is for processing live transactions, whereas the test
- * host can be used for integration testing and development.
- *
- * Each endpoint requires a different set of API keys, which can be
- * found in your account settings.
- *
- * Currently this class makes the assumption that if the testMode
- * flag is set then the Test Endpoint is being used.
+ * To enable test/sandbox/development mode you need to use the Trexle Sandbox Gateway in your dashboard at trexle.com
+ * against the same API end point https://core.trexle.com/api/v1
  *
  * @see \Omnipay\Trexle\Gateway
- * @link https://trexle.net.au/docs/api
+ * @link https://docs.trexle.com
  */
 abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
 {
@@ -40,14 +29,14 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
      *
      * @var string URL
      */
-    protected $testEndpoint = 'https://test-api.trexle.net.au/';
+    protected $testEndpoint = 'https://core.trexle.com/api/v1';
 
     /**
      * Live Endpoint URL
      *
      * @var string URL
      */
-    protected $liveEndpoint = 'https://api.trexle.net.au/';
+    protected $liveEndpoint = 'https://core.trexle.com/api/v1';
 
     /**
      * Get secret key

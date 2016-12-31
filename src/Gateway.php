@@ -10,9 +10,7 @@ use Omnipay\Common\AbstractGateway;
 /**
  * Trexle Gateway
  *
- * Trexle Payments is an Australian all-in-one payment system, allowing you
- * to accept multi-currency credit card payments without a security
- * deposit or a merchant account.
+ * 
  *
  * ### Example
  *

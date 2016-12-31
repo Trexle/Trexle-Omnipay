@@ -87,7 +87,7 @@ namespace Omnipay\Trexle\Message;
  * </code>
  *
  * @see \Omnipay\Trexle\Gateway
- * @link https://trexle.net.au/docs/api/charges
+ * @link https://docs.trexle.com
  */
 class AuthorizeRequest extends PurchaseRequest
 {

@@ -32,7 +32,7 @@ namespace Omnipay\Trexle\Message;
  * </code>
  *
  * @see \Omnipay\Trexle\Gateway
- * @link https://trexle.net.au/docs/api/refunds#post-refunds
+ * @link https://docs.trexle.com
  */
 class RefundRequest extends AbstractRequest
 {
