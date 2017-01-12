@@ -4,7 +4,7 @@
 
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
-processing library for PHP 5.3+. This package implements [Trexle](https://trexle.net.au/) support for Omnipay.
+processing library for PHP 5.3+. This package implements [Trexle](https://trexle.com/) support for Omnipay.
 
 [Trexle Payments](https://trexle.com) is an online billing solution supporting 100+ payments gateways and dozens of e-commerce platforms.
  
