@@ -22,21 +22,21 @@ use Guzzle\Http\Message\RequestInterface;
  */
 abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
 {
-    const API_VERSION = '1';
+    const API_VERSION = 'v1';
 
     /**
      * Test Endpoint URL
      *
      * @var string URL
      */
-    protected $testEndpoint = 'https://core.trexle.com/api/v1';
+    protected $testEndpoint = 'https://core.trexle.com/api/';
 
     /**
      * Live Endpoint URL
      *
      * @var string URL
      */
-    protected $liveEndpoint = 'https://core.trexle.com/api/v1';
+    protected $liveEndpoint = 'https://core.trexle.com/api/';
 
     /**
      * Get secret key

@@ -22,7 +22,8 @@
         "psr-4": { "Omnipay\\Trexle\\" : "src/" }
     },
     "require": {
-        "omnipay/common": "~2.0"
+        "omnipay/common": "~2.0",
+        "omnipay/trexle": "~2.0"
     },
     "require-dev": {
         "omnipay/tests": "~2.0"
