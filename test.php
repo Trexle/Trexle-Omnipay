@@ -3,7 +3,7 @@ require __DIR__ . '/vendor/autoload.php';
 use Omnipay\Omnipay;
 
 $gateway = Omnipay::create('Trexle');
-$gateway->setSecretKey('J5RGMpDlFlTfv9mEFvNWYoqHufyukPP4');
+$gateway->setSecretKey('YOURSECRETAPIKEY');
 
 $formData = array('number' => '4242424242424242', 'expiryMonth' => '6', 'expiryYear' => '2018', 'cvv' => '123');
 $response = $gateway->purchase(array('description' => 'test transactiongi', 'email' => 'test@email.com', 'amount' => '10.00', 'currency' => 'USD', 'card' => $formData))->send();
