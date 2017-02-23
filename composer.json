@@ -10,7 +10,7 @@
         "payment",
         "trexle"
     ],
-    "homepage": "https://github.com/thephpleague/omnipay-trexle",
+    "homepage": "https://github.com/trexle/trexle-omnipay",
     "license": "MIT",
     "authors": [
         {
